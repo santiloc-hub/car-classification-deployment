@@ -26,7 +26,7 @@ Este proyecto proporciona una **API REST basada en FastAPI** para clasificar mod
 ## 🛠️ Instalación y Configuración
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/yourusername/car-classification-api.git
+git clone https://github.com/santiloc-hub/car-classification-deployment.git
 cd car-classification-api
 ```
 
@@ -37,19 +37,9 @@ pip install -r requirements.txt
 
 ### 3️⃣ Ejecutar el servidor FastAPI
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 ```
-La API estará accesible en `http://localhost:8000/docs` (Swagger UI).
-
-## 🏗️ Despliegue con Docker
-1. **Construir la imagen Docker:**
-   ```bash
-   docker build -t car-classification-api .
-   ```
-2. **Ejecutar el contenedor:**
-   ```bash
-   docker run -p 8000:8000 car-classification-api
-   ```
+La API estará accesible en `http://localhost:8080/docs` (Swagger UI).
 
 ## 🔥 Endpoints de la API
 ### 🚀 Predicción de Categoría del Automóvil
