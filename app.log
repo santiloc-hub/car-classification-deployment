@@ -2,12 +2,12 @@
 
 2025-03-27 23:36:39,752 - INFO - Respuesta enviada: 405
 2025-03-27 23:37:42,056 - INFO - Solicitud recibida: POST http://127.0.0.1:8000/predict
-2025-03-27 23:37:42,059 - INFO - Datos recibidos para predicción: {'buying': 'vhigh', 'maint': 'low', 'doors': '4', 'persons': 'more', 'lug_boot': 'big', 'safety': 'med'}
-2025-03-27 23:37:42,067 - INFO - Predicción generada: acc
+2025-03-27 23:37:42,059 - INFO - Datos recibidos para predicciï¿½n: {'buying': 'vhigh', 'maint': 'low', 'doors': '4', 'persons': 'more', 'lug_boot': 'big', 'safety': 'med'}
+2025-03-27 23:37:42,067 - INFO - Predicciï¿½n generada: acc
 2025-03-27 23:37:42,068 - INFO - Respuesta enviada: 200
 2025-03-27 23:38:03,130 - INFO - Solicitud recibida: POST http://127.0.0.1:8000/predict
-2025-03-27 23:38:03,131 - INFO - Datos recibidos para predicción: {'buying': 'high', 'maint': 'med', 'doors': '3', 'persons': '4', 'lug_boot': 'small', 'safety': 'high'}
-2025-03-27 23:38:03,136 - INFO - Predicción generada: acc
+2025-03-27 23:38:03,131 - INFO - Datos recibidos para predicciï¿½n: {'buying': 'high', 'maint': 'med', 'doors': '3', 'persons': '4', 'lug_boot': 'small', 'safety': 'high'}
+2025-03-27 23:38:03,136 - INFO - Predicciï¿½n generada: acc
 2025-03-27 23:38:03,136 - INFO - Respuesta enviada: 200
 2025-03-27 23:38:23,030 - INFO - Solicitud recibida: GET http://127.0.0.1:8000/predict
 
@@ -15,3 +15,14 @@
 2025-03-27 23:38:23,956 - INFO - Solicitud recibida: GET http://127.0.0.1:8000/predict
 
 2025-03-27 23:38:23,957 - INFO - Respuesta enviada: 405
+2025-03-28 13:03:05,636 - INFO - Iniciando servidor FastAPI en http://127.0.0.1:8080
+2025-03-28 13:03:21,275 - INFO - Solicitud recibida: {'buying': 'vhigh', 'maint': 'vhigh', 'doors': '4', 'persons': '4', 'lug_boot': 'small', 'safety': 'high'}
+2025-03-28 13:03:21,306 - INFO - Predicciï¿½n realizada: unacc
+2025-03-28 13:03:40,174 - INFO - Solicitud recibida: {'buying': 'vhigh', 'maint': 'vhigh', 'doors': '2', 'persons': '4', 'lug_boot': 'small', 'safety': 'high'}
+2025-03-28 13:03:40,183 - INFO - Predicciï¿½n realizada: unacc
+2025-03-28 13:03:46,227 - INFO - Solicitud recibida: {'buying': 'vhigh', 'maint': 'vhigh', 'doors': '2', 'persons': '2', 'lug_boot': 'small', 'safety': 'high'}
+2025-03-28 13:03:46,246 - INFO - Predicciï¿½n realizada: unacc
+2025-03-28 13:03:54,136 - INFO - Solicitud recibida: {'buying': 'vhigh', 'maint': 'low', 'doors': '2', 'persons': '2', 'lug_boot': 'small', 'safety': 'high'}
+2025-03-28 13:03:54,152 - INFO - Predicciï¿½n realizada: unacc
+2025-03-28 13:04:01,086 - INFO - Solicitud recibida: {'buying': 'low', 'maint': 'low', 'doors': '2', 'persons': '2', 'lug_boot': 'small', 'safety': 'high'}
+2025-03-28 13:04:01,108 - INFO - Predicciï¿½n realizada: unacc

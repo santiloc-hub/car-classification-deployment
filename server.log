@@ -1,0 +1,3 @@
+2025-03-28 13:01:50,589 - INFO - Iniciando servidor FastAPI en http://127.0.0.1:8080
+2025-03-28 13:02:03,697 - INFO - Solicitud recibida: {'buying': 'vhigh', 'maint': 'vhigh', 'doors': '4', 'persons': '4', 'lug_boot': 'small', 'safety': 'high'}
+2025-03-28 13:02:03,729 - INFO - Predicción realizada: unacc
