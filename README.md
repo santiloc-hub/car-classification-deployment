@@ -78,5 +78,5 @@ pytest test_api.py
 Este proyecto está bajo la licencia MIT.
 
 ## ✨ Contribuidores
-- **Tu Nombre** - [Perfil de GitHub](https://github.com/santiloc-hub)
+- **Santiago Abel Montaña Vasquez** - [Perfil de GitHub](https://github.com/santiloc-hub)
 
