@@ -8,7 +8,6 @@ Este proyecto proporciona una **API REST basada en FastAPI** para clasificar mod
 - **Codificación y decodificación automática de variables categóricas**
 - **Predicción de la clasificación del automóvil según sus características**
 - **Documentación en Swagger UI disponible en `/docs`**
-- **Dockerizado para una fácil implementación**
 - **Incluye monitoreo y registro del modelo**
 
 ## 📂 Estructura del Proyecto
@@ -26,7 +25,7 @@ Este proyecto proporciona una **API REST basada en FastAPI** para clasificar mod
 ## 🛠️ Instalación y Configuración
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/yourusername/car-classification-api.git
+git clone https://github.com/santiloc-hub/car-classification-deployment.git
 cd car-classification-api
 ```
 
@@ -37,19 +36,9 @@ pip install -r requirements.txt
 
 ### 3️⃣ Ejecutar el servidor FastAPI
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 ```
-La API estará accesible en `http://localhost:8000/docs` (Swagger UI).
-
-## 🏗️ Despliegue con Docker
-1. **Construir la imagen Docker:**
-   ```bash
-   docker build -t car-classification-api .
-   ```
-2. **Ejecutar el contenedor:**
-   ```bash
-   docker run -p 8000:8000 car-classification-api
-   ```
+La API estará accesible en `http://localhost:8080/docs` (Swagger UI).
 
 ## 🔥 Endpoints de la API
 ### 🚀 Predicción de Categoría del Automóvil
@@ -88,5 +77,5 @@ pytest test_api.py
 Este proyecto está bajo la licencia MIT.
 
 ## ✨ Contribuidores
-- **Tu Nombre** - [Perfil de GitHub](https://github.com/santiloc-hub)
+- **Santiago Abel Montaña Vasquez** - [Perfil de GitHub](https://github.com/santiloc-hub)
 
