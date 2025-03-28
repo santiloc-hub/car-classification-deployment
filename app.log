@@ -1,0 +1,17 @@
+2025-03-27 23:36:39,752 - INFO - Solicitud recibida: GET http://127.0.0.1:8000/predict
+
+2025-03-27 23:36:39,752 - INFO - Respuesta enviada: 405
+2025-03-27 23:37:42,056 - INFO - Solicitud recibida: POST http://127.0.0.1:8000/predict
+2025-03-27 23:37:42,059 - INFO - Datos recibidos para predicción: {'buying': 'vhigh', 'maint': 'low', 'doors': '4', 'persons': 'more', 'lug_boot': 'big', 'safety': 'med'}
+2025-03-27 23:37:42,067 - INFO - Predicción generada: acc
+2025-03-27 23:37:42,068 - INFO - Respuesta enviada: 200
+2025-03-27 23:38:03,130 - INFO - Solicitud recibida: POST http://127.0.0.1:8000/predict
+2025-03-27 23:38:03,131 - INFO - Datos recibidos para predicción: {'buying': 'high', 'maint': 'med', 'doors': '3', 'persons': '4', 'lug_boot': 'small', 'safety': 'high'}
+2025-03-27 23:38:03,136 - INFO - Predicción generada: acc
+2025-03-27 23:38:03,136 - INFO - Respuesta enviada: 200
+2025-03-27 23:38:23,030 - INFO - Solicitud recibida: GET http://127.0.0.1:8000/predict
+
+2025-03-27 23:38:23,031 - INFO - Respuesta enviada: 405
+2025-03-27 23:38:23,956 - INFO - Solicitud recibida: GET http://127.0.0.1:8000/predict
+
+2025-03-27 23:38:23,957 - INFO - Respuesta enviada: 405

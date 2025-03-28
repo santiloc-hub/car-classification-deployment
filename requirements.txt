@@ -1,0 +1,6 @@
+fastapi[all]
+uvicorn
+scikit-learn
+pandas
+numpy
+pickle-mixin
