@@ -27,3 +27,7 @@
 2025-03-28 13:04:01,086 - INFO - Solicitud recibida: {'buying': 'low', 'maint': 'low', 'doors': '2', 'persons': '2', 'lug_boot': 'small', 'safety': 'high'}
 2025-03-28 13:04:01,108 - INFO - Predicciï¿½n realizada: unacc
 2025-03-28 14:16:25,992 - INFO - Iniciando servidor FastAPI en http://127.0.0.1:8080
+2025-03-28 14:17:10,176 - INFO - Solicitud recibida: {'buying': 'low', 'maint': 'med', 'doors': '4', 'persons': '4', 'lug_boot': 'big', 'safety': 'high'}
+2025-03-28 14:17:10,176 - INFO - Predicción realizada: vgood
+2025-03-28 14:18:40,914 - INFO - Solicitud recibida: {'buying': 'low', 'maint': 'med', 'doors': '4', 'persons': '4', 'lug_boot': 'big', 'safety': 'high'}
+2025-03-28 14:18:40,916 - INFO - Predicción realizada: vgood
