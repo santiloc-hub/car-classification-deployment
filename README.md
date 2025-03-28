@@ -8,7 +8,6 @@ Este proyecto proporciona una **API REST basada en FastAPI** para clasificar mod
 - **Codificación y decodificación automática de variables categóricas**
 - **Predicción de la clasificación del automóvil según sus características**
 - **Documentación en Swagger UI disponible en `/docs`**
-- **Dockerizado para una fácil implementación**
 - **Incluye monitoreo y registro del modelo**
 
 ## 📂 Estructura del Proyecto
