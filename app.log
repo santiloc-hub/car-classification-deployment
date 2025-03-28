@@ -26,3 +26,4 @@
 2025-03-28 13:03:54,152 - INFO - Predicci�n realizada: unacc
 2025-03-28 13:04:01,086 - INFO - Solicitud recibida: {'buying': 'low', 'maint': 'low', 'doors': '2', 'persons': '2', 'lug_boot': 'small', 'safety': 'high'}
 2025-03-28 13:04:01,108 - INFO - Predicci�n realizada: unacc
+2025-03-28 14:16:25,992 - INFO - Iniciando servidor FastAPI en http://127.0.0.1:8080
